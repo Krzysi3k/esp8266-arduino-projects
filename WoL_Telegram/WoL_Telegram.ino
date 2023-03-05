@@ -47,7 +47,7 @@ unsigned long bot_lasttime;
 void handleNewMessages(int numNewMessages) {
 	for (int i = 0; i < numNewMessages; i++) {
 		if (bot.messages[i].text == "/help") {
-			bot.sendMessage(bot.messages[i].chat_id, "available commands:\n/wol_wyse \n/wol_hypervisor", "");
+			bot.sendMessage(bot.messages[i].chat_id, "available commands:\n\n/wol_wyse - sends wake on lan to Wyse \n\n/wol_hypervisor - sends wake on lan Hypervisor", "");
 		}
 		else if (bot.messages[i].text == "/wol_wyse") {
 			WOL.sendMagicPacket(macaddr_wyse);
@@ -58,13 +58,12 @@ void handleNewMessages(int numNewMessages) {
 			bot.sendMessage(bot.messages[i].chat_id, "sent magic packet to Hypervisor", "");
 		}
 		else {
-			bot.sendMessage(bot.messages[i].chat_id, "hello type /help to see available commands", "");
+			bot.sendMessage(bot.messages[i].chat_id, "Hello, please type /help to see available commands", "");
 		}
 	}
 }
 
-void setup()
-{
+void setup() {
 	Serial.begin(115200);
 	Serial.println();
 	Serial.print("Connecting to Wifi SSID ");
