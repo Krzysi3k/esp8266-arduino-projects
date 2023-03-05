@@ -37,6 +37,7 @@
             "includePath": [
                 "C:\\Users\\kkesi\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.2\\tools\\sdk\\include",
                 "C:\\Users\\kkesi\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.2\\tools\\sdk\\lwip2\\include",
+                "C:\\Users\\kkesi\\AppData\\Local\\Temp\\arduino\\sketch-30F9AE4CA2DBBCBB0313E43515B31EC2\\core",
                 "C:\\Users\\kkesi\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.2\\cores\\esp8266",
                 "C:\\Users\\kkesi\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.2\\variants\\nodemcu",
                 "C:\\Users\\kkesi\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.0.2\\libraries\\ESP8266WiFi\\src",
@@ -67,7 +68,7 @@
                 "TCP_MSS=536",
                 "LWIP_FEATURES=1",
                 "LWIP_IPV6=0",
-                "ARDUINO=10819",
+                "ARDUINO=10607",
                 "ARDUINO_ESP8266_NODEMCU_ESP12",
                 "ARDUINO_ARCH_ESP8266",
                 "ARDUINO_BOARD=\"ESP8266_NODEMCU_ESP12\"",
